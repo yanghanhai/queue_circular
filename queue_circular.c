@@ -51,9 +51,10 @@
 /******************************************************************************
 * Function Name	:	Queue_Init
 ******************************************************************************/
-bool Queue_Init(st_can_queue_ptr pstQueue,
-				st_can_message_ptr pstCanMsgQBuf,
-				uint8_t u8MaxLength)
+bool Queue_Init
+(st_can_queue_ptr pstQueue,
+ st_can_message_ptr pstCanMsgQBuf,
+ uint8_t u8MaxLength)
 {
 	bool bRtn;
 
@@ -79,8 +80,9 @@ bool Queue_Init(st_can_queue_ptr pstQueue,
 /******************************************************************************
 * Function Name	:	Queue_EnqueueCanMessage
 ******************************************************************************/
-bool Queue_EnqueueCanMessage(st_can_queue_ptr pstQueue,
-							 st_can_message_ptr pstCanMsg)
+bool Queue_EnqueueCanMessage
+(st_can_queue_ptr pstQueue,
+ st_can_message_ptr pstCanMsg)
 {
 	bool bRtn;
 
@@ -116,8 +118,9 @@ bool Queue_EnqueueCanMessage(st_can_queue_ptr pstQueue,
 /******************************************************************************
 * Function Name	:	Queue_DequeueCanMessage
 ******************************************************************************/
-bool Queue_DequeueCanMessage(st_can_queue_ptr pstQueue,
-							 st_can_message_ptr pstCanMsg)
+bool Queue_DequeueCanMessage
+(st_can_queue_ptr pstQueue,
+ st_can_message_ptr pstCanMsg)
 {
 	bool bRtn;
 
